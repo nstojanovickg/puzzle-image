@@ -1,0 +1,40 @@
+body, canvas, div {
+    margin: 0;
+    padding: 0;
+}
+
+/*img {
+    width: 100%;
+    height: auto;
+}*/
+#puzzle {
+    width: 1280px;
+    line-height: 0px;
+    float: left;
+}
+canvas {
+    cursor: move;
+}
+#init-timer-text {
+    z-index:1;
+    position:absolute;    
+    color:#768ED4;
+    font-size:100px;
+    font-weight:bold;
+    left:50%;
+    top: 50%;
+}
+
+#puzzle-timer-image {
+    position: absolute;
+    z-index: -1;
+    left: 1280px;
+}
+#puzzle-timer-color {
+    float: left;
+    width: 34px;
+    height: 630px;
+    margin: 1px 3px;
+    background-color: #768ED4;
+    position: relative;
+}
