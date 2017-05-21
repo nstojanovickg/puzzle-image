@@ -1,4 +1,4 @@
-body, canvas, div {
+body, div {
     margin: 0;
     padding: 0;
 }
@@ -37,4 +37,12 @@ canvas {
     margin: 1px 3px;
     background-color: #768ED4;
     position: relative;
+}
+
+#puzzle-timer-time {
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    font-weight:bold;
+    color: white;
 }
